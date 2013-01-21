@@ -55,7 +55,7 @@ class Yampee_Loader_Universal
 	 *
 	 * @param string|array $prefix
 	 * @param string|null $directory
-	 * @return Yampee_Autoloader
+	 * @return Yampee_Loader_Universal
 	 */
 	public function registerPrefix($prefix, $directory = null)
 	{
@@ -83,7 +83,7 @@ class Yampee_Loader_Universal
 	 * Register a fallback or a list of fallbacks
 	 *
 	 * @param string|array $directory
-	 * @return Yampee_Autoloader
+	 * @return Yampee_Loader_Universal
 	 */
 	public function registerFallback($directory)
 	{
@@ -97,7 +97,7 @@ class Yampee_Loader_Universal
 	 * Register the autoloader in the SPL
 	 * Automatically called by the constructor
 	 *
-	 * @return Yampee_Autoloader
+	 * @return Yampee_Loader_Universal
 	 */
 	public function register()
 	{
@@ -110,7 +110,7 @@ class Yampee_Loader_Universal
 	/**
 	 * Unregister the autoloader from the SPL
 	 *
-	 * @return Yampee_Autoloader
+	 * @return Yampee_Loader_Universal
 	 */
 	public function unregister()
 	{
@@ -184,7 +184,7 @@ class Yampee_Loader_Universal
 	 *
 	 * @param string $prefix
 	 * @param string $directory
-	 * @return Yampee_Autoloader
+	 * @return Yampee_Loader_Universal
 	 */
 	private function setPrefix($prefix, $directory)
 	{
