@@ -10,6 +10,8 @@ as efficiently as possible.
 How ? Using any tool provided by your server, as APC, WinCache or Xcache and caching
 erverything with the Dumper.
 
+Yampee Loader uses the PEAR-naming convention (http://pear.php.net/).
+
 Documentation
 -------------
 
