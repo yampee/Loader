@@ -1,5 +1,14 @@
 <?php
 
+/*
+ * Yampee Components
+ * Open source web development components for PHP 5.
+ *
+ * @package Yampee Components
+ * @author Titouan Galopin <galopintitouan@gmail.com>
+ * @link http://titouangalopin.com
+ */
+
 /**
  * The loader dumper is an object to dump dynamically loaded class in a single
  * file, which improve performances.

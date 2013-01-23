@@ -1,5 +1,14 @@
 <?php
 
+/*
+ * Yampee Components
+ * Open source web development components for PHP 5.
+ *
+ * @package Yampee Components
+ * @author Titouan Galopin <galopintitouan@gmail.com>
+ * @link http://titouangalopin.com
+ */
+
 /**
  * Yampee_Loader_Xcache implements a "universal" autoloader for PHP 5 cached with Xcache.
  *

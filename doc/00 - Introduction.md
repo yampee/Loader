@@ -8,7 +8,6 @@ Yampee Loader is a PHP 5 set of autoloaders which use the most effective tools o
 your server. It uses the PEAR-naming convention (http://pear.php.net/).
 
 At the moment, Yampee Loader can use Apc, Xcache and WinCache.
-It will soon support Reddis.
 
 Moreover, if there is no cache tool installed on your server, you still can use the
 Yampee_Loader_Dumper, which is an object to dump dynamically loaded classes to
